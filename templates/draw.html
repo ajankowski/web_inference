@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div id="welcome" class="container">
+    <div class="title">
+        <h2>Napisz cyfrę</h2>
+        <span class="byline">Jak myślisz Keras?</span> 
+    </div>
+    <div id="sketch">
+        <canvas style="border:1px solid #000000;" id="paint"></canvas>
+        <script type="text/javascript" src="static/draw.js"></script>
+    </div>
+    <input onclick="download_my_canvas()" type="button" id="save" value="Jaka to cyfra?">
+</div> 
+
+{% endblock %}

@@ -1,0 +1,8 @@
+sudo su
+cd /var/flask && source bin/activate
+cd flask_cloud/ && cd cloud_inference
+
+screen -ls
+
+
+alias w='cd /var/flask/flask_cloud/cloud_inference'
