@@ -28,5 +28,5 @@ def odp_sieci(prediction):
     p = list(prediction[0])
     for i in enumerate(p):
         if i[1] > 0.5:
-            return f'{i[0]} ({i[1]})'
+            return i[0]
     return p
