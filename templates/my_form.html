@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div id="welcome" class="container">
+    <div class="title">
+        <h2>Funkcja XOR</h2>
+        <span class="byline">Jak myślisz Keras?</span> 
+    </div>
+    <div class="content">
+        <p>Podaj dwie cyfry (0 lub 1) oddzielone przecinkiem. <br>
+            Otrzymasz wynik funkcji XOR na podanych przez siebie cyfrach.</p>
+        <form font-size=40 align=center action="/api" method="post">
+            <input type="text" name="xor"></input>
+        </form>
+        <a href="/odpowiedz.html" class="button">XOR</a> 
+    </div>
+</div>
+
+{% endblock %}

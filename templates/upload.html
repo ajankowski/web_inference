@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div id="welcome" class="container">
+    <div class="title">
+        <h2>Wczytaj cyfrę</h2>
+        <span class="byline">Jak myślisz Keras?</span> 
+    </div>
+    <div class="content">
+        <p>
+            <form method=post enctype=multipart/form-data>
+                <input type=file name=file>
+                <input type=submit value=Upload>
+            </form>
+            <h2>
+                <object data="avatar.jpg" type="image/jpg"> 
+                    <img width=200 src='{{ picture_path }}' /> 
+                </object>                
+            </h2>
+        </p>
+        <a href="/jakatocyfra.html" class="button">Jaka to cyfra?</a> 
+    </div>
+</div>
+
+{% endblock %}

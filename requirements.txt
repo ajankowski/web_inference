@@ -1,0 +1,5 @@
+Flask==0.12.2
+numpy==1.14.1
+keras==2.1.4
+tensorflow==1.5.0
+h5py==2.7.0

@@ -1,0 +1,82 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jul 11 15:59:45 2018] ***
+compiled with version: 5.4.0 20160609 on 09 July 2018 12:00:21
+os: Linux-4.13.0-1011-gcp #15-Ubuntu SMP Mon Feb 12 16:29:04 UTC 2018
+nodename: inference-flask
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/flask/flask_cloud
+detected binary path: /var/flask/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 6677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address 8080 fd 3
+uwsgi socket 1 bound to UNIX address /var/flask/flask_cloud/flask_uwsgi.sock fd 4
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x734100
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x734100 pid: 4922 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 4922, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jul 11 16:04:16 2018] ***
+compiled with version: 5.4.0 20160609 on 09 July 2018 12:00:21
+os: Linux-4.13.0-1011-gcp #15-Ubuntu SMP Mon Feb 12 16:29:04 UTC 2018
+nodename: inference-flask
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/flask/flask_cloud
+detected binary path: /var/flask/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 6677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address 8080 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x11a4f10
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x11a4f10 pid: 4949 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 4949, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jul 11 16:07:09 2018] ***
+compiled with version: 5.4.0 20160609 on 09 July 2018 12:00:21
+os: Linux-4.13.0-1011-gcp #15-Ubuntu SMP Mon Feb 12 16:29:04 UTC 2018
+nodename: inference-flask
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/flask/flask_cloud
+detected binary path: /var/flask/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 6677
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address 8080 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1538f50
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1538f50 pid: 4969 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 4969, cores: 1)
